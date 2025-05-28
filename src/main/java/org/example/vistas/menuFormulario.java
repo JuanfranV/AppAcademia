@@ -1,4 +1,4 @@
 package org.example.vistas;
 
-public class bienvenida {
+public class menuFormulario {
 }
