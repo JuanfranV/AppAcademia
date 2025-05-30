@@ -11,9 +11,10 @@ public class registrarseFormulario extends JDialog{
     private JButton buttonVolver;
     private JButton buttonSiguiente;
     private JPasswordField passwordField1;
+    private JTextField textFieldContraEsp;
 
     public registrarseFormulario(){
-        setSize(600, 450);
+        setSize(600, 500);
         setLocationRelativeTo(null);
         setContentPane(panelRegistrarse);
 
