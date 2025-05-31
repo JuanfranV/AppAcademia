@@ -6,22 +6,22 @@ import org.example.model.usuarioModel;
 public class usuarioDAOImpl implements usuarioDAO {
 
     @Override
-    public void crear(usuarioModel usuarioModel) {
+    public void crear(usuarioModel usuarioModel) throws Exception {
 
     }
 
     @Override
-    public usuarioModel leer(int id) {
+    public usuarioModel leer(int id) throws Exception {
         return null;
     }
 
     @Override
-    public void actualizar(usuarioModel usuarioModel) {
+    public void actualizar(usuarioModel usuarioModel) throws Exception {
 
     }
 
     @Override
-    public void eliminar(int id) {
+    public void eliminar(int id) throws Exception {
 
     }
 }

@@ -7,6 +7,7 @@ public class inicioSesionFormulario extends JDialog{
     private JPasswordField passwordFieldContraseña;
     private JPanel panelInicioSesion;
     private JButton buttonSiguiente;
+    private JButton buttonVolver;
 
     public inicioSesionFormulario(){
         setSize(600, 400);

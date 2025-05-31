@@ -4,8 +4,8 @@ import org.example.model.usuarioModel;
 
 public interface usuarioDAO {
 
-    void crear (usuarioModel usuarioModel);
-    usuarioModel leer (int id);
-    void actualizar (usuarioModel usuarioModel);
-    void eliminar (int id);
+    void crear (usuarioModel usuarioModel) throws Exception;
+    usuarioModel leer (int id) throws Exception;
+    void actualizar (usuarioModel usuarioModel) throws Exception;
+    void eliminar (int id) throws Exception;
 }

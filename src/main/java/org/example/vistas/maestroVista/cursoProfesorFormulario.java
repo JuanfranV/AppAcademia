@@ -9,6 +9,7 @@ public class cursoProfesorFormulario extends JDialog{
     private JButton buttonPonerNota;
     private JButton buttonExpulsar;
     private JPanel panelCursoProfesor;
+    private JButton buttonVolver;
 
     public cursoProfesorFormulario(){
         setSize(600, 400);

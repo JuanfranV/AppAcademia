@@ -8,14 +8,16 @@ public class usuarioModel {
     private String rol;
     private String email;
     private String telefono;
+    private String contra;
 
-    public usuarioModel(int id, String nombres, String apellidos, String rol, String email, String telefono) {
+    public usuarioModel(int id, String nombres, String apellidos, String rol, String email, String telefono, String contra) {
         this.id = id;
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.rol = rol;
         this.email = email;
         this.telefono = telefono;
+        this.contra = contra;
     }
 
     public usuarioModel() {
@@ -67,5 +69,13 @@ public class usuarioModel {
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
+    }
+
+    public String getContra() {
+        return contra;
+    }
+
+    public void setContra(String contra) {
+        this.contra = contra;
     }
 }

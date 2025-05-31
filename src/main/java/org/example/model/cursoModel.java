@@ -10,16 +10,14 @@ public class cursoModel {
     private String descripcion;
     private LocalDate fechaIncio;
     private LocalDate fechaFin;
-    private int participantes;
 
-    public cursoModel(int id, int categoriaId, String nombre, String descripcion, LocalDate fechaIncio, LocalDate fechaFin, int participantes) {
+    public cursoModel(int id, int categoriaId, String nombre, String descripcion, LocalDate fechaIncio, LocalDate fechaFin) {
         this.id = id;
         this.categoriaId = categoriaId;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.fechaIncio = fechaIncio;
         this.fechaFin = fechaFin;
-        this.participantes = participantes;
     }
 
     public cursoModel() {
@@ -71,13 +69,5 @@ public class cursoModel {
 
     public void setFechaFin(LocalDate fechaFin) {
         this.fechaFin = fechaFin;
-    }
-
-    public int getParticipantes() {
-        return participantes;
-    }
-
-    public void setParticipantes(int participantes) {
-        this.participantes = participantes;
     }
 }

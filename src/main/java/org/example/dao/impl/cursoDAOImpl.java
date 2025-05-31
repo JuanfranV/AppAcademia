@@ -6,22 +6,22 @@ import org.example.model.cursoModel;
 public class cursoDAOImpl implements cursoDAO {
 
     @Override
-    public void crear(cursoModel cursoModel) {
+    public void crear(cursoModel cursoModel) throws Exception {
 
     }
 
     @Override
-    public cursoModel leer(int id) {
+    public cursoModel leer(int id) throws Exception {
         return null;
     }
 
     @Override
-    public void actualizar(cursoModel cursoModel) {
+    public void actualizar(cursoModel cursoModel) throws Exception {
 
     }
 
     @Override
-    public void eliminar(int id) {
+    public void eliminar(int id) throws Exception {
 
     }
 }
